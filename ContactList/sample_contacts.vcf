@@ -1,0 +1,42 @@
+BEGIN:VCARD
+VERSION:2.1
+N:1;Dummy;Contact;;
+FN:Dummy Contact 1
+TEL;CELL:555-555-1111
+EMAIL;HOME:dummy1@email.com
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:2;Dummy;Contact;;
+FN:Dummy Contact 2
+TEL;CELL:555-555-2222
+EMAIL;HOME:dummy2@email.com
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:3;Dummy;Contact;;
+FN:Dummy Contact 3
+TEL;CELL:555-555-3333
+EMAIL;HOME:dummy3@email.com
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:4;Dummy;;;
+FN:Dummy 4
+TEL;CELL:555-555-4444
+EMAIL;HOME:dummy4@email.com
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:5;Dummy;;;
+FN:Dummy 5
+TEL;CELL:555-555-5555
+EMAIL;HOME:dummy5@email.com
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Torres;Bruno;;;
+FN:Bruno Torres
+EMAIL;HOME:contato@brunotorr.es
+ORG:Globo.com
+END:VCARD
