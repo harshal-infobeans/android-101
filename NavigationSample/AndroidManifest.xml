@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="scufsj.android101.navigationsample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="scufsj.android101.navigationsample.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="scufsj.android101.navigationsample.DropdownNavigationActivity"
+            android:label="@string/title_activity_dropdown_navigation"
+            android:parentActivityName="scufsj.android101.navigationsample.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="scufsj.android101.navigationsample.MainActivity" />
+        </activity>
+        <activity
+            android:name="scufsj.android101.navigationsample.TabsNavigationActivity"
+            android:label="@string/title_activity_tabs_navigation"
+            android:parentActivityName="scufsj.android101.navigationsample.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="scufsj.android101.navigationsample.MainActivity" />
+        </activity>
+        <activity
+            android:name="scufsj.android101.navigationsample.DrawerNavigationActivity"
+            android:label="@string/title_activity_drawer_navigation"
+            android:parentActivityName="scufsj.android101.navigationsample.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="scufsj.android101.navigationsample.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
