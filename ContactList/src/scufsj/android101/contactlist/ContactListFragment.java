@@ -1,10 +1,10 @@
 package scufsj.android101.contactlist;
 
 import scufsj.android101.contactlist.contacts.ContactsCollection;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.provider.ContactsContract.Contacts;
 import android.support.v4.app.ListFragment;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.Loader;
@@ -129,6 +129,7 @@ public class ContactListFragment extends ListFragment implements
 		mCallbacks = sDummyCallbacks;
 	}
 
+	@SuppressLint("DefaultLocale")
 	@Override
 	public void onListItemClick(ListView listView, View view, int position,
 			long id) {
