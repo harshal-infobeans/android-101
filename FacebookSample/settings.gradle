@@ -1,0 +1,3 @@
+include ':facebook-android-sdk:facebook'
+
+project(':facebook-android-sdk').projectDir = new File(rootDir, '../facebook-android-sdk')

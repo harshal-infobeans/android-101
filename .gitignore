@@ -17,3 +17,6 @@ local.properties
 
 # Eclipse project files
 .metadata/
+
+# Android Studio project files
+**/.idea/workspace.xml
